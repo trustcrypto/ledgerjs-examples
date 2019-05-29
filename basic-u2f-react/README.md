@@ -1,6 +1,6 @@
 ## basic-u2f-react
 
-Simple example of Ledger u2f transport + React.
+Simple example of OnlyKey u2f transport + React.
 
 ---
 

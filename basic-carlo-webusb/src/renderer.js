@@ -3,7 +3,7 @@ import TransportWebUSB from "@ledgerhq/hw-transport-webusb";
 import AppBtc from "@ledgerhq/hw-app-btc";
 
 const initial =
-  "<h1>Connect your Ledger and open Bitcoin app. Click anywhere to start...</h1>";
+  "<h1>Connect your OnlyKey and open Bitcoin app. Click anywhere to start...</h1>";
 
 const $main = document.getElementById("main");
 $main.innerHTML = initial;

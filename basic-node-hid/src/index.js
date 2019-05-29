@@ -1,5 +1,5 @@
 import "babel-polyfill";
-import TransportNodeHid from "@ledgerhq/hw-transport-node-hid";
+import TransportNodeHid from "@trustcrypto/hw-transport-node-hid";
 import AppBtc from "@ledgerhq/hw-app-btc";
 
 async function example() {

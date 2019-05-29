@@ -1,5 +1,5 @@
 require("babel-polyfill");
-const TransportNodeHid = require("@ledgerhq/hw-transport-node-hid").default;
+const TransportNodeHid = require("@trustcrypto/hw-transport-node-hid").default;
 const AppBtc = require("@ledgerhq/hw-app-btc").default;
 
 const carlo = require("carlo");

@@ -1,7 +1,7 @@
 import "babel-polyfill";
 
 const $main = document.getElementById("main");
-$main.innerHTML = "<h1>Connect your Ledger and open Bitcoin app.</h1>";
+$main.innerHTML = "<h1>Connect your OnlyKey and open Bitcoin app.</h1>";
 
 (async () => {
   const { bitcoinAddress } = await getBitcoinInfo(false);

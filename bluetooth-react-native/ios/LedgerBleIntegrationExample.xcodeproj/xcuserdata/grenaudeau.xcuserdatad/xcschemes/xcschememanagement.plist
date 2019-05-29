@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LedgerBleIntegrationExample-tvOS.xcscheme_^#shared#^_</key>
+		<key>OnlyKeyBleIntegrationExample-tvOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>LedgerBleIntegrationExample.xcscheme_^#shared#^_</key>
+		<key>OnlyKeyBleIntegrationExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>

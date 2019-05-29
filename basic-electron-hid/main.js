@@ -1,6 +1,6 @@
 // Modules to control application life and create native browser window
 require("babel-polyfill");
-const TransportNodeHid = require("@ledgerhq/hw-transport-node-hid").default;
+const TransportNodeHid = require("@trustcrypto/hw-transport-node-hid").default;
 const AppBtc = require("@ledgerhq/hw-app-btc").default;
 
 const { app, BrowserWindow, ipcMain } = require("electron");

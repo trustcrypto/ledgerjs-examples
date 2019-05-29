@@ -1,7 +1,7 @@
 const { ipcRenderer } = require("electron");
 
 document.getElementById("main").innerHTML =
-  "<h1>Connect your Ledger and open Bitcoin app...</h1>";
+  "<h1>Connect your OnlyKey and open Bitcoin app...</h1>";
 
 ipcRenderer.on("bitcoinInfo", (event, arg) => {
   const h1 = document.createElement("h2");

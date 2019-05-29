@@ -1,6 +1,6 @@
 ## bluetooth-web-react
 
-Ledger Web Bluetooth example with **React**. Connect to a Bluetooth Ledger device and show an Ethereum address with a QR Code.
+OnlyKey Web Bluetooth example with **React**. Connect to a Bluetooth OnlyKey device and show an Ethereum address with a QR Code.
 
 <img width=600 src="https://user-images.githubusercontent.com/211411/52532385-90a02e00-2d24-11e9-9b94-f552ca350b65.jpg" />
 

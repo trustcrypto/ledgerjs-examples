@@ -53,14 +53,14 @@ class ShowAddressScreen extends Component {
             {error ? (
               <Text style={styles.error}>
                 A problem occurred, make sure to open the Ethereum application
-                on your Ledger Nano X. (
+                on your OnlyKey Nano X. (
                 {String((error && error.message) || error)})
               </Text>
             ) : null}
           </>
         ) : (
           <>
-            <Text style={styles.title}>Ledger Live Ethereum Account 1</Text>
+            <Text style={styles.title}>OnlyKey Live Ethereum Account 1</Text>
             <QRCode value={address} size={300} />
             <Text style={styles.address}>{address}</Text>
           </>

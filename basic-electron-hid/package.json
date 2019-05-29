@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@ledgerhq/hw-app-btc": "^4.38.6",
-    "@ledgerhq/hw-transport-node-hid": "^4.38.6",
+    "@trustcrypto/hw-transport-node-hid": "^4.38.6",
     "babel-polyfill": "^6.26.0"
   }
 }

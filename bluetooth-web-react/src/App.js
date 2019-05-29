@@ -30,7 +30,7 @@ class DeviceSelectionScreen extends Component {
     return (
       <div className="DeviceSelectionScreen">
         <p>
-          Power up your Ledger Nano X and enter your pin before continuing...
+          Power up your OnlyKey Nano X and enter your pin before continuing...
         </p>
         <button onClick={this.createBLE}>Connect with Bluetooth</button>
         <button onClick={this.createUSB}>Connect with USB</button>
@@ -87,14 +87,14 @@ class ShowAddressScreen extends Component {
             {error ? (
               <p className="error">
                 A problem occurred, make sure to open the Ethereum application
-                on your Ledger Nano X. (
+                on your OnlyKey Nano X. (
                 {String((error && error.message) || error)})
               </p>
             ) : null}
           </>
         ) : (
           <>
-            <strong>Ledger Live Ethereum Account 1</strong>
+            <strong>OnlyKey Live Ethereum Account 1</strong>
             <QRCode data={address} size={300} />
             <strong>{address}</strong>
           </>

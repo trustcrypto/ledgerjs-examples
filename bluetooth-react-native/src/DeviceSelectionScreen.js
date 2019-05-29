@@ -103,7 +103,7 @@ class DeviceSelectionScreen extends Component {
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Scanning for Bluetooth...</Text>
         <Text style={styles.headerSubtitle}>
-          Power up your Ledger Nano X and enter your pin.
+          Power up your OnlyKey Nano X and enter your pin.
         </Text>
       </View>
     );
