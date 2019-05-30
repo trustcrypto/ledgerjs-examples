@@ -55,7 +55,7 @@
     "@ledgerhq/logs" "^4.60.3"
     rxjs "^6.5.2"
 
-"@trustcrypto/hw-transport-node-hid@^4.38.6":
+"@trustcrypto/hw-transport-node-hid@^4.60.4":
   version "4.60.3"
   resolved "https://registry.yarnpkg.com/@trustcrypto/hw-transport-node-hid/-/hw-transport-node-hid-4.60.3.tgz#9bcd376b61ffeeb18995ecad3ea5670ce97ffb4f"
   integrity sha512-tYkuqLPuKu3qZrmaYH6XfaeGSLMumCbqG6NnWkRCLUJPahRGHW375m11GSugnq4v6mxa+B6LNvrzRdVy+4ftQQ==
