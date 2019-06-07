@@ -36,22 +36,22 @@ async function test() {
   bytes256.fill(1);
 
   //Settime USB HID
-  var resulthid = await USBHIDmethod(OKSETTIME, 0, 0, 0, Uint8Array.from(time));
-  console.log(resulthid.toString("ascii"));
-  await wait(5000);
+  //var resulthid = await USBHIDmethod(OKSETTIME, 0, 0, 0, Uint8Array.from(time));
+  //console.log(resulthid.toString("ascii"));
+  //await wait(5000);
 
   //Settime USB Keyboard
   var resultkey = await USBKeyboardmethod(OKSETTIME, 0, 0, 0, Uint8Array.from(time));
   console.log(resultkey.toString("ascii"));
   await wait(5000);
 
-  var resultkey = await USBKeyboardmethod(OKSETPRIV, 1, 2, 0, bytes256);
-  console.log(resultkey.toString("ascii"));
-  await wait(5000);
+  //var resultkey = await USBKeyboardmethod(OKSETPRIV, 1, 2, 0, bytes256);
+  //console.log(resultkey.toString("ascii"));
+  //await wait(5000);
 
   //SetPRIV USB HID
-  var resulthid = await USBHIDmethod(OKSETPRIV, 1, 2, 0, bytes256);
-  console.log(resulthid.toString("ascii"));
+  //var resulthid = await USBHIDmethod(OKSETPRIV, 1, 2, 0, bytes256);
+  //console.log(resulthid.toString("ascii"));
 
 
 }

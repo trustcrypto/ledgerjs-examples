@@ -75,10 +75,10 @@
     "@ledgerhq/logs" "^4.60.3"
     rxjs "^6.5.2"
 
-"@trustcrypto/hw-transport-node-hid-keyboard@^1.0.81":
-  version "1.0.81"
-  resolved "https://registry.yarnpkg.com/@trustcrypto/hw-transport-node-hid-keyboard/-/hw-transport-node-hid-keyboard-1.0.81.tgz#0f9fb84e70666c8a5885c2b8627f076c84af935c"
-  integrity sha512-c9oDZtqPRC76kPEMIbAXpzeJv7BbpVH6TSc7lF0vbjXzeZWBnOFxbGhgQeEj0wvX8cXzbzASP8QL+1fQzskJww==
+"@trustcrypto/hw-transport-node-hid-keyboard@^1.0.85":
+  version "1.0.85"
+  resolved "https://registry.yarnpkg.com/@trustcrypto/hw-transport-node-hid-keyboard/-/hw-transport-node-hid-keyboard-1.0.85.tgz#040bc9ad08ed96b928925418794a96a5fc8455af"
+  integrity sha512-Ef0HbW1mjOdSVjaieWYTreXSiEPTVkQiVOOEQWYymEiAck6bTji67xl9PN7pQk1oFeoatfTz1P2PEcA1KUAgGg==
   dependencies:
     "@ledgerhq/errors" "^4.60.0"
     "@ledgerhq/logs" "^4.60.3"

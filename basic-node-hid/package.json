@@ -10,7 +10,7 @@
     "@ledgerhq/hw-transport-webauthn": "^4.61.0",
     "@ledgerhq/hw-transport-u2f": "^4.61.0",
     "@trustcrypto/hw-transport-node-hid": "^4.60.3",
-    "@trustcrypto/hw-transport-node-hid-keyboard": "^1.0.81",
+    "@trustcrypto/hw-transport-node-hid-keyboard": "^1.0.85",
     "@trustcrypto/hw-transport": "^4.60.7",
     "u2f-api": "0.2.7",
     "@ledgerhq/logs": "^4.60.3",
