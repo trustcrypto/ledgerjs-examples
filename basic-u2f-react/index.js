@@ -10,7 +10,7 @@ class App extends Component {
     address: null,
     error: null
   };
-  onGetOnlyKeyBitcoinAddress = async () => {
+  onGetLedgerBitcoinAddress = async () => {
     try {
       this.setState({ error: null });
       const transport = await TransportU2F.create();
@@ -21,7 +21,7 @@ class App extends Component {
       this.setState({ error });
     }
   };
-  onGetOnlyKeyEthereumAddress = async () => {
+  onGetLedgerEthereumAddress = async () => {
     try {
       this.setState({ error: null });
       const transport = await TransportU2F.create();
@@ -37,13 +37,13 @@ class App extends Component {
     return (
       <div>
         <p>
-          <button onClick={this.onGetOnlyKeyBitcoinAddress}>
-            Get OnlyKey Bitcoin Address
+          <button onClick={this.onGetLedgerBitcoinAddress}>
+            Get Ledger Bitcoin Address
           </button>
         </p>
         <p>
-          <button onClick={this.onGetOnlyKeyEthereumAddress}>
-            Get OnlyKey Ethereum Address
+          <button onClick={this.onGetLedgerEthereumAddress}>
+            Get Ledger Ethereum Address
           </button>
         </p>
         <p>

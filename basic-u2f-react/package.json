@@ -16,6 +16,7 @@
     "babel-core": "^6.26.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-react-app": "^3.1.1",
+    "babel-standalone": "^6.26.0",
     "cross-env": "^5.2.0",
     "parcel-bundler": "^1.6.2"
   },

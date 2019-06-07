@@ -7,8 +7,14 @@
   "dependencies": {
     "@ledgerhq/hw-app-btc": "^4.38.6",
     "@ledgerhq/hw-app-eth": "^4.38.6",
-    "@trustcrypto/hw-transport-node-hid": "^4.60.4",
-    "@trustcrypto/hw-transport": "^4.60.3",
+    "@ledgerhq/hw-transport-webauthn": "^4.61.0",
+    "@ledgerhq/hw-transport-u2f": "^4.61.0",
+    "@trustcrypto/hw-transport-node-hid": "^4.60.3",
+    "@trustcrypto/hw-transport-node-hid-keyboard": "^1.0.81",
+    "@trustcrypto/hw-transport": "^4.60.7",
+    "u2f-api": "0.2.7",
+    "@ledgerhq/logs": "^4.60.3",
+    "@ledgerhq/errors": "^4.60.0",
     "babel-polyfill": "^6.26.0"
   },
   "devDependencies": {

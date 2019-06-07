@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js
+
+PATH: 
+  /Users/t/anaconda2/bin:/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/t/Documents/ledgerjs-examples/basic-node-hid/node_modules/@trustcrypto/hw-transport-node-hid'
+
+npm manifest: 
+  {
+    "private": true,
+    "name": "@ledgerhq/example-node",
+    "version": "4.36.0",
+    "main": "index.js",
+    "license": "Apache-2.0",
+    "dependencies": {
+      "@ledgerhq/hw-app-btc": "^4.38.6",
+      "@ledgerhq/hw-app-eth": "^4.38.6",
+      "@ledgerhq/hw-transport-webauthn": "^4.61.0",
+      "@ledgerhq/hw-transport-u2f": "^4.61.0",
+      "@trustcrypto/hw-transport-node-hid": "^4.60.3",
+      "@trustcrypto/hw-transport-node-hid-keyboard": "^1.0.63",
+      "@trustcrypto/hw-transport": "^4.60.7",
+      "u2f-api": "0.2.7",
+      "@ledgerhq/logs": "^4.60.3",
+      "@ledgerhq/errors": "^4.60.0",
+      "babel-polyfill": "^6.26.0"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-flow": "^6.23.0",
+      "babel-preset-stage-0": "^6.24.1",
+      "flow-bin": "^0.92.1"
+    },
+    "scripts": {
+      "start": "node lib/index.js",
+      "clean": "rm -rf lib",
+      "build": "babel --source-maps -d lib src",
+      "watch": "babel --watch --source-maps -d lib src"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

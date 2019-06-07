@@ -9,16 +9,20 @@ const { app, BrowserWindow, ipcMain } = require("electron");
 // Ideally you should not run this code in main thread
 // but run it in a dedicated node.js process
 function getBitcoinInfo(verify) {
+  var bytes256 = new Uint8Array(128);
+  bytes256.fill(1);
+  console.log("Start");
   return TransportNodeHid.open("")
     .then(transport => {
       transport.setDebugMode(true);
       const appBtc = new AppBtc(transport);
-      return appBtc.getWalletPublicKey("44'/0'/0'/0/0", verify).then(r =>
+      return transport.send(0xEF, 1, 2, 0, bytes256).then(r =>
         transport
           .close()
           .catch(e => {})
           .then(() => r)
       );
+      console.log("Done");
     })
     .catch(e => {
       console.warn(e);
