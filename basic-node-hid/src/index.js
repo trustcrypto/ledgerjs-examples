@@ -85,7 +85,7 @@ async function USBKeyboardmethod(msgId, opt1, opt2, opt3, contents) { //Try USB 
   const issupported = TransportNodeKeyboard.isSupported();
   if (issupported) { //Send settime and get response
     try {
-      var transport = await TransportNodeKeyboard.create();
+      var transport = await TransportNodeKeyboard.open();
       let request = [];
       request.push(msgId, opt1, opt2, opt3, contents);
       request = Uint8Array.from(request);
